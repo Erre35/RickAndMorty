@@ -27,4 +27,4 @@ yarn run dev
 
 ## Preview del aplicativo:
 
-<img src="./src/assets/Preview.gif" alt="Funcionamiento en iOS" width="300">
+<img src="./src/assets/Preview.gif" alt="Funcionamiento en web" width="350">
