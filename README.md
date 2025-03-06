@@ -1,29 +1,30 @@
-# Rsbuild project
+# RickAndMorty
 
-## Setup
+Aplicativo que lista los personajes de Rick and Morty y nos informa de su estado actual, vivo, muerto o desconocido.
 
-Install the dependencies:
 
-```bash
-pnpm install
-```
+## Tecnologías
 
-## Get started
+- React v19
+- TypeScript
+- Rspack
 
-Start the dev server:
 
-```bash
-pnpm dev
-```
+## Cómo ejecutar la aplicación
 
-Build the app for production:
+### Paso 1. Clona el repositorio:
 
-```bash
-pnpm build
-```
+git clone https://github.com/Erre35/RickAndMorty.git
 
-Preview the production build locally:
+### Paso 2. Instala las dependencias:
 
-```bash
-pnpm preview
-```
+yarn install
+
+### Paso 3. Inicia el servidor de desarrollo:
+
+yarn run dev
+
+
+## Preview del aplicativo:
+
+<img src="./src/utils/assets/iOS.gif" alt="Funcionamiento en iOS" width="300">

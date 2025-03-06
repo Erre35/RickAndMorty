@@ -17,15 +17,17 @@ const Home = () => {
 
   return (
     <div>
-      <Typography variant="h2" sx={{ marginTop: '50px', marginBottom: '50px' }}>
-        Personajes de Rick and Morty
-      </Typography>
-
       {loading && <Loading />}
       {error && <Typography color="error">{error}</Typography>}
 
       {!loading && !error && (
         <>
+          <Typography
+            variant="h2"
+            sx={{ marginTop: '50px', marginBottom: '50px' }}
+          >
+            Personajes de Rick and Morty
+          </Typography>
           <CharactersList characters={characters} />
           <Pagination page={page} totalPages={totalPages} setPage={setPage} />
         </>
