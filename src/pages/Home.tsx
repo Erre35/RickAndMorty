@@ -24,10 +24,23 @@ const Home = () => {
         <>
           <Typography
             variant="h2"
-            sx={{ marginTop: '50px', marginBottom: '50px' }}
+            style={{ marginTop: '50px', marginBottom: '50px', color: '#000', fontSize: '45px' }}
           >
-            Personajes de Rick and Morty
+            Personajes {' '}
+            <Typography
+              variant="h2"
+              style={{
+                fontSize: '72px',
+                fontWeight: 'bold',
+                color: '#131347',
+                textShadow: '2px 2px 10px rgba(151, 206, 76, 0.8)',
+                fontFamily: 'Bangers',
+              }}
+            >
+              Rick and Morty
+            </Typography>
           </Typography>
+
           <CharactersList characters={characters} />
           <Pagination page={page} totalPages={totalPages} setPage={setPage} />
         </>

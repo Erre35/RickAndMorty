@@ -37,8 +37,8 @@ const CharacterCard = ({ character }: CharacterCardProps) => {
       <img
         src={character.image}
         alt={character.name}
-        width="150"
-        height="150"
+        width="170"
+        height="170"
         style={{
           borderRadius: '50%',
           border: `4px solid ${getBorderColor(character.status)}`,
